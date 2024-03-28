@@ -1,0 +1,96 @@
+*{
+  	cursor:url(cursor6.cur),pointer;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+section#n1,#n2,#n3,#n4,#n5{
+  position: relative;
+  width: 100%;
+  display: flex;
+  background: url(AN.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: monospace;
+  color: black;
+}
+section#n1{
+  height: 400vh;
+}
+section#n2{
+  height: 500vh;
+}
+section#n3{
+  height: 410vh;
+}
+section#n4{
+  height: 270vh;
+}
+section#n5{
+  height: 550vh;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+nav  a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding: 8px 25px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: sans-serif;
+}
+nav a:hover,
+section#n1:hover~nav a[href="section#n1"]
+section#n2:hover~nav a[href="section#n2"]
+section#n3:hover~nav a[href="section#n3"]
+section#n4:hover~nav a[href="section#n4"]
+section#n5:hover~nav a[href="section#n5"]
+{
+  background: #FCFF00 ;
+  color: black;
+}
+.dglav{
+  margin-top: 70px;
+  margin-left: 140px;
+  width: 100vw;
+  height: 50vh;
+  border-radius: 20px;
+  color: white;
+}
+.glav{
+  font-size: 25px;
+  width: 80vw;
+  font-family: monospace;
+}
+.h1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+img{
+  margin-top: 30px;
+  margin-left: 65px;
+  opacity: 1;
+}
+.cc{
+  margin-left: 30px;
+}
+.h2{
+  font-size: 27px;
+}
+#cla{
+  font-size: 80px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  margin-left: 1300px;
+}

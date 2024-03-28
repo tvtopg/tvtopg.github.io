@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script>
+		 $(document).ready(function (){
+			  var offset1 = $("#n1").offset();
+				var offset2 = $("#n2").offset();
+				var offset3 = $("#n3").offset();
+				var offset4 = $("#n4").offset();
+        var offset5 = $("#n5").offset();
+			  $(".but1").click(function (){
+					$('html, body').animate({
+						scrollTop: offset1.top
+					}, 1500);
+					 console.log("work");
+				  });
+					$(".but2").click(function (){
+						$('html, body').animate({
+							scrollTop: offset2.top
+						}, 1500);
+						 console.log("work");
+					  });
+						$(".but3").click(function (){
+							$('html, body').animate({
+								scrollTop: offset3.top
+							}, 1500);
+							 console.log("work");
+						  });
+							$(".but4").click(function (){
+								$('html, body').animate({
+									scrollTop: offset4.top
+								}, 1500);
+								 console.log("work");
+							  });
+								$(".but5").click(function (){
+									$('html, body').animate({
+										scrollTop: offset5.top
+									}, 1500);
+									 console.log("work");
+								  });
+				 });
+			 </script>
+    <link rel="stylesheet" href="0.css">
+    <link href="Logo.ico" rel="shortcut icon" type="image/x-icon">
+    <title>Инвестиции</title>
+  </head>
+  <body>
+    <section id="n4">
+    <div class="dglav">
+      <h1 class="h1">История</h1>
+      <p class="glav">
+        Моя история инвестиции в фондовый рынок начинается с 11 класса, когда мне исполнилось 18 лет. Я понял, что если я сейчас не начну инвестировать, то так и останусь бедным на всю жизнь.
+    Начал я с самого простого способа. Я оформил карточку Тинькофф и счёт в Тинькофф инвестиции.
+    Начал каждый месяц откладывать со стипендии и с других источников минимум 10%. На скопившиеся средства я потихоньку покупал акции и уже через год смог добиться более 35% годовых, что является очень достойным результатом. Всё это у меня получилось благодаря минимальным знаниям фондового рынка и дисциплинированным подходом в отложении средств.
+    На момент написания этой истории, портфель просел и прибыль не такая большая как была, но это временно, рынок восстановиться и всё вернётся на свои места. Но даже при такой текущей ситуации видно что я заработал не плохие деньги, просто покупая на фондовом рынке.
+
+      </p>
+      <img src="55.jpg" alt="">
+      <a class="but4" id="cla">^</a>
+    </div>
+
+    </section>
+    <nav>
+      <a class="but1" href="1.html">Главная</a>
+      <a class="but2" href="2.html">Виды инвестиций</a>
+      <a class="but3" href="3.html">Важное</a>
+      <a class="but4" href="4.html">Мой опыт</a>
+      <a class="but5" href="5.html">Что почитать?</a>
+    </nav>
+
+
+  </body>
+</html>
